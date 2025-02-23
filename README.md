@@ -7,7 +7,11 @@ The goal of this project is to develop an application that can predict meme tren
 
 ### Technical Insight
 
-API’s / Libraries:
+Programming language: C# <br />
+<br />
+IDE: Visual studio <br />
+<br />
+API’s / Libraries: <br />
 * Reddit API - Scrapes posts from target subreddits
 * Microsoft.ML & TensorFlow.NET - Machine learning models for trend prediction
 * (future update) Twitter API V2 - Since twitter restricts scraping, this is used, it allows fetching tweets, user data, and trends legally.
