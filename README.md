@@ -1,6 +1,8 @@
 # MemeOracle
 The meme predicting fortune teller
 
+Predicting viral memes for the average person is such a challenge. Fear not! My app is easily accesible with out the vision loss and migranes that come with being chronically online. With my app you can see clearly and get the quick answers that you desire! No more doom scrolling, with a click of a button you can feel culturally cooked!
+
 ### Overview
 
 The goal of this project is to develop an application that can predict meme trends by scraping and analyzing posts from platforms such as Reddit and Twitter. This app will gather data from specific subreddits and tweets, process the information and use machine learning to detect emerging trends.
