@@ -1,7 +1,7 @@
 # MemeOracle
 The meme predicting fortune teller
 
-Predicting viral memes for the average person is such a challenge. Fear not! My app is easily accesible with out the vision loss and migranes that come with being chronically online. With my app you can see clearly and get the quick answers that you desire! No more doom scrolling, with a click of a button you can feel culturally cooked!
+Predicting viral memes for the average person can be such a challenge. Fear not! My app is easily accesible without the horrors of vision loss that come with being chronically online. With Meme Oracle you can see clearly and get the quick answers that you desire! No more doom scrolling, with a click of a button you can feel culturally cooked!
 
 ### Overview
 
