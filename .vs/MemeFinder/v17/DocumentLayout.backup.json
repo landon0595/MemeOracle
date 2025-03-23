@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94D116D1-AE74-42C2-80B4-33A07034BC40}|MemeFinder.csproj|c:\\users\\landon\\source\\repos\\memeoracle\\redditscraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D116D1-AE74-42C2-80B4-33A07034BC40}|MemeFinder.csproj|solutionrelative:redditscraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D116D1-AE74-42C2-80B4-33A07034BC40}|MemeFinder.csproj|c:\\users\\landon\\source\\repos\\memeoracle\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{94D116D1-AE74-42C2-80B4-33A07034BC40}|MemeFinder.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D116D1-AE74-42C2-80B4-33A07034BC40}|MemeFinder.csproj|c:\\users\\landon\\source\\repos\\memeoracle\\redditmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D116D1-AE74-42C2-80B4-33A07034BC40}|MemeFinder.csproj|solutionrelative:redditmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D116D1-AE74-42C2-80B4-33A07034BC40}|MemeFinder.csproj|c:\\users\\landon\\source\\repos\\memeoracle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D116D1-AE74-42C2-80B4-33A07034BC40}|MemeFinder.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 186,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T00:42:38.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RedditModels.cs",
+              "DocumentMoniker": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\RedditModels.cs",
+              "RelativeDocumentMoniker": "RedditModels.cs",
+              "ToolTip": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\RedditModels.cs",
+              "RelativeToolTip": "RedditModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T05:06:07.898Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 214,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-03-23T03:33:57.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RedditScraper.cs",
+              "DocumentMoniker": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\RedditScraper.cs",
+              "RelativeDocumentMoniker": "RedditScraper.cs",
+              "ToolTip": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\RedditScraper.cs",
+              "RelativeToolTip": "RedditScraper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T23:38:46.26Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

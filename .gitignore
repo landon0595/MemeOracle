@@ -1,0 +1,2 @@
+﻿# Ignore all .env files to prevent sensitive info from being commited to GitHub
+.env
