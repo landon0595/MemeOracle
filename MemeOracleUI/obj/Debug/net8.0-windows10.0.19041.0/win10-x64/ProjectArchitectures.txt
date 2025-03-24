@@ -1,0 +1,1 @@
+C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\MemeOracleUI.csproj;x64

@@ -21,7 +21,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 286,
           "SelectedChildIndex": 3,
           "Children": [
             {
@@ -38,8 +38,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T22:45:49.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T22:45:49.555Z"
             },
             {
               "$type": "Document",
@@ -61,10 +60,8 @@
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-03-16T22:45:05.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T22:45:05.171Z"
             }
           ]
         }

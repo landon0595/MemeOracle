@@ -72,6 +72,8 @@ namespace MemeFinder
                             Console.WriteLine("Posts found, processing...");
                             Console.WriteLine();
                             DateTime oneWeekAgo = DateTime.UtcNow.AddDays(-7);
+                            DateTime oneMonthAgo = DateTime.UtcNow.AddDays(-30);
+                            DateTime oneYearAgo = DateTime.UtcNow.AddDays(-360);
 
                             foreach (PostDataWrapper postWrapper in topPosts.Data.Children)
                             {
@@ -82,9 +84,22 @@ namespace MemeFinder
                                 {
                                     Console.WriteLine($"Title: {post.Title}");
                                     Console.WriteLine($"URL: {post.Url}");
-                                    Console.WriteLine(new String('-', 50));
+                                    Console.WriteLine(new string('-', 50));
+                                }
+                                if (postDate > oneMonthAgo)
+                                {
+                                    Console.WriteLine($"Title: {post.Title}");
+                                    Console.WriteLine($"URL: {post.Url}");
+                                    Console.WriteLine(new string('-', 50));
+                                }
+                                if (postDate > oneYearAgo)
+                                {
+                                    Console.WriteLine($"Title: {post.Title}");
+                                    Console.WriteLine($"URL: {post.Url}");
+                                    Console.WriteLine(new string('-', 50));
                                 }
                             }
+
                         }
                     }
                 }
@@ -95,14 +110,14 @@ namespace MemeFinder
                     Console.WriteLine($"StackTrace: {ex.StackTrace}");
 
                     //Additional logging if it's an API related issue
-                    if (ex is System.Net.Http.HttpRequestException httpRequestException)
+                    if (ex is HttpRequestException httpRequestException)
                     {
                         Console.WriteLine("HttpRequestException occured while making the request.");
                         Console.WriteLine($"Error Message: {httpRequestException.Message}");
                     }
 
                     //Handle specific exceptions (optional)
-                    if (ex is Newtonsoft.Json.JsonReaderException)
+                    if (ex is JsonReaderException)
                     {
                         Console.WriteLine("There is an issue parsing the JSON response. Check the API response.");
                     }
@@ -114,4 +129,3 @@ namespace MemeFinder
     }
 }
 
-    

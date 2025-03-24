@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MemeOracleUI.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="200,20"
+            Spacing="20"
+            BackgroundColor="White"   >
+
+            <Label
+                Text="Meme Oracle"
+                FontFamily="LadyRadical"
+                TextColor="black" 
+                FontSize="Header"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Image
+                Source="musk_doge.PNG"           
+                HeightRequest="250"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+
+            <Label
+                Text="Your personal meme prediction app!"
+                TextColor="Black"
+                CharacterSpacing="0.5"
+                FontSize="Header"
+                FontFamily="ArcadeClassic"
+                LineBreakMode="CharacterWrap"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="App Introduction" />
+                
+                <Button
+                x:Name="Reddit_Generator"
+                Text="Reddit"
+                CharacterSpacing="2"
+                BackgroundColor="Black"
+                TextColor="{DynamicResource RedditColor}"
+                FontSize="Large"
+                FontFamily="ArcadeClassic"
+                SemanticProperties.Hint="NewPage1"
+                Clicked="Button_Clicked"
+                VerticalOptions="Center"/>
+                
+                <Button 
+                Text="Saved Memes"
+                CharacterSpacing="2"
+                BackgroundColor="Black"
+                TextColor="White"
+                FontSize="Large"
+                FontFamily="ArcadeClassic"
+                VerticalOptions="Center"/>
+
+                <Button 
+                Text="Return to Desktop"
+                CharacterSpacing="2"
+                BackgroundColor="Black"
+                TextColor="Red"
+                FontSize="Large"
+                FontFamily="ArcadeClassic"
+                Clicked="ExitButton_Clicked"
+                VerticalOptions="Center"/>
+                
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
