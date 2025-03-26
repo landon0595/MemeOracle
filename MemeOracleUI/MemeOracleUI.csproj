@@ -63,6 +63,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\MemeFinder.csproj" />
+	  <ProjectReference Include="..\MemeOracle_SharedLibrary\MemeOracle_SharedLibrary.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="NewPage1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

@@ -1,6 +1,7 @@
 ﻿using DotNetEnv;
+using System.Diagnostics;
 
-namespace MemeFinder
+namespace MemeFinder.Configuration
 {
     public class ConfigManager
     {
@@ -17,7 +18,7 @@ namespace MemeFinder
         //Refreshed access token (not in .env)
         private static string? _accessToken;
         public static string accessToken
-        {
+        {           
             get => _accessToken ?? string.Empty;
             set => _accessToken = value;
         }

@@ -1,0 +1,13 @@
+C:\Users\Landon\source\repos\MemeOracle\MemeOracle_SharedLibrary\bin\Debug\net8.0\MemeOracle_SharedLibrary.deps.json
+C:\Users\Landon\source\repos\MemeOracle\MemeOracle_SharedLibrary\bin\Debug\net8.0\MemeOracle_SharedLibrary.dll
+C:\Users\Landon\source\repos\MemeOracle\MemeOracle_SharedLibrary\bin\Debug\net8.0\MemeOracle_SharedLibrary.pdb
+C:\Users\Landon\source\repos\MemeOracle\MemeOracle_SharedLibrary\obj\Debug\net8.0\MemeOracle_SharedLibrary.csproj.AssemblyReference.cache
+C:\Users\Landon\source\repos\MemeOracle\MemeOracle_SharedLibrary\obj\Debug\net8.0\MemeOracle_SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Landon\source\repos\MemeOracle\MemeOracle_SharedLibrary\obj\Debug\net8.0\MemeOracle_SharedLibrary.AssemblyInfoInputs.cache
+C:\Users\Landon\source\repos\MemeOracle\MemeOracle_SharedLibrary\obj\Debug\net8.0\MemeOracle_SharedLibrary.AssemblyInfo.cs
+C:\Users\Landon\source\repos\MemeOracle\MemeOracle_SharedLibrary\obj\Debug\net8.0\MemeOracle_SharedLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Landon\source\repos\MemeOracle\MemeOracle_SharedLibrary\obj\Debug\net8.0\MemeOracle_SharedLibrary.sourcelink.json
+C:\Users\Landon\source\repos\MemeOracle\MemeOracle_SharedLibrary\obj\Debug\net8.0\MemeOracle_SharedLibrary.dll
+C:\Users\Landon\source\repos\MemeOracle\MemeOracle_SharedLibrary\obj\Debug\net8.0\refint\MemeOracle_SharedLibrary.dll
+C:\Users\Landon\source\repos\MemeOracle\MemeOracle_SharedLibrary\obj\Debug\net8.0\MemeOracle_SharedLibrary.pdb
+C:\Users\Landon\source\repos\MemeOracle\MemeOracle_SharedLibrary\obj\Debug\net8.0\ref\MemeOracle_SharedLibrary.dll

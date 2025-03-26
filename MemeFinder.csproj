@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -13,12 +13,23 @@
     <None Remove="MemeOracleUI\**" />
   </ItemGroup>
 
+	<ItemGroup>
+		<Compile Remove="MemeOracle_SharedLibrary\**" />
+		<EmbeddedResource Remove="MemeOracleUI_SharedLibrary\**" />
+		<None Remove="MemeOracle_SharedLibrary\**" />
+	</ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="DotNetEnv" Version="3.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.0" />
     <PackageReference Include="Microsoft.ML" Version="4.0.0" />
     <PackageReference Include="Reddit" Version="1.5.2" />
     <PackageReference Include="RestSharp" Version="112.1.0" />
     <PackageReference Include="TensorFlow.NET" Version="0.150.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="MemeOracle_SharedLibrary\MemeOracle_SharedLibrary.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:MemeOracleUI.ViewModels"
              x:Class="MemeOracleUI.NewPage1"
              Title="Reddit Meme Generator">
 
@@ -38,9 +39,27 @@
             BackgroundColor="{DynamicResource RedditColor}"
             VerticalOptions="Center"
             HorizontalOptions="Center"
-            Clicked="Button_Clicked"/>
+            Clicked="LoadWeeklyMemes_Clicked"/>
         
-            <Button
+        <CollectionView ItemsSource="{Binding Memes}" >
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical" Span="10"/>
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="10" Margin="5">
+                        <StackLayout>
+                            <Label Text="{Binding Title}" FontAttributes="Bold"/>
+                            <Image Source="{Binding ImageUrl}" Aspect="AspectFill" HeightRequest="100" />
+                            <Label Text="{Binding Url}" FontSize="12" />
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+
+        <Button
             Text="Past Month"
             TextColor="White"
             FontFamily="ArcadeClassic"
@@ -52,7 +71,7 @@
             VerticalOptions="Center"
             HorizontalOptions="Center"
             Clicked="Button_Clicked"/>
-        
+
             <Button
             Text="Past Year"
             TextColor="White"
@@ -66,14 +85,11 @@
             HorizontalOptions="Center"
             Clicked="Button_Clicked"/>
 
-            <Image
+        <Image
                 Source="redditicon.png"
                 HeightRequest="150"
-                Margin="10,-150,10,0"
+                Margin="10,-60,10,0"
                 HorizontalOptions="End"                
                 SemanticProperties.Description="Official Reddit Icon" />
-
     </VerticalStackLayout>
-
-    
 </ContentPage>

@@ -50,7 +50,7 @@
                 Text="Saved Memes"
                 CharacterSpacing="2"
                 BackgroundColor="Black"
-                TextColor="White"
+                TextColor="CornflowerBlue"
                 FontSize="Large"
                 FontFamily="ArcadeClassic"
                 VerticalOptions="Center"/>
