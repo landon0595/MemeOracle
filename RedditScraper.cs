@@ -5,7 +5,7 @@ namespace MemeFinder
 {
     public class RedditScraper
     {
-        public async Task<PostResponse> ScrapeSubreddits(string subreddit, string accessToken)
+        public async Task<PostResponse> ScrapeSubreddits(string subreddit, string accessToken, string timeFilter = "week")
         {
             // Create RestClientOptions for authenticating API requests
             string url = "https://oauth.reddit.com/";
@@ -29,7 +29,7 @@ namespace MemeFinder
                     //Fetch top posts from this week
                     var request = new RestRequest($"r/{subredditName}/top", Method.Get);
                     request.AddHeader("Authorization", $"Bearer {accessToken}");
-                    request.AddParameter("t", "week");//Parameter to fetch top posts for the past week
+                    request.AddParameter("t", timeFilter);//Parameter to fetch top posts for the past week
 
                     //execute the request
                     var response = await client.ExecuteAsync(request);
@@ -132,6 +132,7 @@ namespace MemeFinder
                             Console.WriteLine($"Weekly posts count: {weeklyPosts.Count}");
                             Console.WriteLine($"Monthly posts count: {monthlyPosts.Count}");
                             Console.WriteLine($"Yearly posts count: {yearlyPosts.Count}");
+                            return topPosts;
                         }
                     }
                 }

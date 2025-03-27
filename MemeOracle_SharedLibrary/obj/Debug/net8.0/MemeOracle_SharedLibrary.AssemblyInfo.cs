@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MemeOracle_SharedLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88a0485af09708d60ca377b086c35e772906ab5b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43271890f61c366a1330a2597a28db1ceb31a327")]
 [assembly: System.Reflection.AssemblyProductAttribute("MemeOracle_SharedLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MemeOracle_SharedLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

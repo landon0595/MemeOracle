@@ -3,6 +3,8 @@ using MemeFinder;
 using MemeOracleUI.ViewModels;
 using Microsoft.Extensions.Logging;
 using MemeFinder.Wrapper;
+using MemeOracleUI.Database;
+using MemeOracleUI.Utility;
 
 
 namespace MemeOracleUI
@@ -12,8 +14,9 @@ namespace MemeOracleUI
         public static MauiApp CreateMauiApp()
         {
             var builder = MauiApp.CreateBuilder();
+            builder.UseMauiApp<App>();
+
             builder
-                .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -25,14 +28,19 @@ namespace MemeOracleUI
 #endif
             builder.Services.AddSingleton<IMemeService, MemeServiceWrapper>();
 
-            builder.Services.AddSingleton<MainViewModel>();
+            builder.Services.AddSingleton<MainViewModel>();         
             
-            builder.Services.AddSingleton<SharedMeme>();
-
+            //Pages
             builder.Services.AddTransient<MainPage>();
-            //Registration for NewPage
             builder.Services.AddTransient<NewPage1>();
 
+            //SQLite setup
+            string dbPath = Path.Combine(FileSystem.AppDataDirectory, "memes.db");
+            var database = new MemeDataBase(dbPath);
+            Task.Run(() => database.InitAsync()); //No blocking
+            builder.Services.AddSingleton(database);
+
+            //Routing
             Routing.RegisterRoute("newpage1", typeof(NewPage1));
 
             return builder.Build();

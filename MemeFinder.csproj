@@ -19,6 +19,16 @@
 		<None Remove="MemeOracle_SharedLibrary\**" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Remove=".env" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include=".env">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="DotNetEnv" Version="3.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.0" />

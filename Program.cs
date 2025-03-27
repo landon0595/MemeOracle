@@ -14,6 +14,7 @@ class Program
 {
 
     public static string accessToken = string.Empty;
+        
     public static async Task Main(string[] args)
     {
 
@@ -38,9 +39,9 @@ class Program
         {
             Console.WriteLine("REFRESH_TOKEN is missing!");
         }
-        //Authenticate using Reddit API credentials and refresh the access token
-        await AuthService.RefreshAccessToken();
-
+        //Authenticate using Reddit API credentials and refresh the access token      
+        accessToken=await AuthService.RefreshAccessToken();
+      
         if (!string.IsNullOrEmpty(accessToken))
         {
             var scraper = new RedditScraper();

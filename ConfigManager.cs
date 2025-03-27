@@ -15,6 +15,7 @@ namespace MemeFinder.Configuration
         public static string clientSecret => Environment.GetEnvironmentVariable("CLIENT_SECRET") ?? string.Empty;
         public static string refreshToken => Environment.GetEnvironmentVariable("REFRESH_TOKEN") ?? string.Empty;
 
+
         //Refreshed access token (not in .env)
         private static string? _accessToken;
         public static string accessToken

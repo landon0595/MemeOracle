@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-03-26T12:29:18.300</Modified>
+      <Modified>2025-03-27T20:51:36.925</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-03-26T11:09:03.682</Modified>
+      <Modified>2025-03-27T20:01:59.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MemeOracleUI.runtimeconfig.json">
       <PackagePath>MemeOracleUI.runtimeconfig.json</PackagePath>
-      <Modified>2025-03-26T12:29:17.906</Modified>
+      <Modified>2025-03-27T20:01:59.061</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MemeOracleUI.dll">
       <PackagePath>MemeOracleUI.dll</PackagePath>
-      <Modified>2025-03-26T12:29:16.696</Modified>
+      <Modified>2025-03-27T20:51:36.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MemeOracleUI.exe</PackagePath>
-      <Modified>2025-03-26T12:29:16.710</Modified>
+      <Modified>2025-03-27T20:51:36.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,23 +55,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-03-26T11:09:00.994</Modified>
+      <Modified>2025-03-26T16:37:41.023</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-03-26T11:09:01.013</Modified>
+      <Modified>2025-03-26T16:37:41.041</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-03-26T11:09:01.037</Modified>
+      <Modified>2025-03-26T16:37:41.062</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-03-26T11:09:01.070</Modified>
+      <Modified>2025-03-26T16:37:41.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-03-26T11:09:01.216</Modified>
+      <Modified>2025-03-26T16:37:41.212</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\ArcadeClassic.ttf">
       <PackagePath>ArcadeClassic.ttf</PackagePath>
@@ -103,219 +103,219 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-03-26T11:09:02.130</Modified>
+      <Modified>2025-03-26T16:37:42.131</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.118</Modified>
+      <Modified>2025-03-26T16:37:42.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.117</Modified>
+      <Modified>2025-03-26T16:37:42.117</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.117</Modified>
+      <Modified>2025-03-26T16:37:42.117</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.117</Modified>
+      <Modified>2025-03-26T16:37:42.117</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.116</Modified>
+      <Modified>2025-03-26T16:37:42.117</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.126</Modified>
+      <Modified>2025-03-26T16:37:42.125</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.125</Modified>
+      <Modified>2025-03-26T16:37:42.125</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.124</Modified>
+      <Modified>2025-03-26T16:37:42.124</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.125</Modified>
+      <Modified>2025-03-26T16:37:42.125</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.125</Modified>
+      <Modified>2025-03-26T16:37:42.124</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.127</Modified>
+      <Modified>2025-03-26T16:37:42.127</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.127</Modified>
+      <Modified>2025-03-26T16:37:42.127</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.126</Modified>
+      <Modified>2025-03-26T16:37:42.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.127</Modified>
+      <Modified>2025-03-26T16:37:42.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.126</Modified>
+      <Modified>2025-03-26T16:37:42.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.130</Modified>
+      <Modified>2025-03-26T16:37:42.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.130</Modified>
+      <Modified>2025-03-26T16:37:42.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.129</Modified>
+      <Modified>2025-03-26T16:37:42.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.129</Modified>
+      <Modified>2025-03-26T16:37:42.129</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.129</Modified>
+      <Modified>2025-03-26T16:37:42.129</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.128</Modified>
+      <Modified>2025-03-26T16:37:42.129</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.128</Modified>
+      <Modified>2025-03-26T16:37:42.129</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.127</Modified>
+      <Modified>2025-03-26T16:37:42.128</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.128</Modified>
+      <Modified>2025-03-26T16:37:42.128</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.128</Modified>
+      <Modified>2025-03-26T16:37:42.128</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.120</Modified>
+      <Modified>2025-03-26T16:37:42.121</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.120</Modified>
+      <Modified>2025-03-26T16:37:42.121</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.120</Modified>
+      <Modified>2025-03-26T16:37:42.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.120</Modified>
+      <Modified>2025-03-26T16:37:42.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.119</Modified>
+      <Modified>2025-03-26T16:37:42.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.122</Modified>
+      <Modified>2025-03-26T16:37:42.122</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.121</Modified>
+      <Modified>2025-03-26T16:37:42.122</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.121</Modified>
+      <Modified>2025-03-26T16:37:42.122</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.121</Modified>
+      <Modified>2025-03-26T16:37:42.121</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.121</Modified>
+      <Modified>2025-03-26T16:37:42.121</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.124</Modified>
+      <Modified>2025-03-26T16:37:42.124</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.123</Modified>
+      <Modified>2025-03-26T16:37:42.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.123</Modified>
+      <Modified>2025-03-26T16:37:42.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.122</Modified>
+      <Modified>2025-03-26T16:37:42.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.122</Modified>
+      <Modified>2025-03-26T16:37:42.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.119</Modified>
+      <Modified>2025-03-26T16:37:42.119</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.119</Modified>
+      <Modified>2025-03-26T16:37:42.119</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.118</Modified>
+      <Modified>2025-03-26T16:37:42.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.118</Modified>
+      <Modified>2025-03-26T16:37:42.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.118</Modified>
+      <Modified>2025-03-26T16:37:42.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.132</Modified>
+      <Modified>2025-03-26T16:37:42.116</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.132</Modified>
+      <Modified>2025-03-26T16:37:42.116</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.131</Modified>
+      <Modified>2025-03-26T16:37:42.116</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.131</Modified>
+      <Modified>2025-03-26T16:37:42.115</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.131</Modified>
+      <Modified>2025-03-26T16:37:42.115</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\musk_doge.scale-100.PNG">
       <PackagePath>musk_doge.scale-100.PNG</PackagePath>
-      <Modified>2025-03-26T11:09:02.116</Modified>
+      <Modified>2025-03-26T16:37:42.114</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\redditicon.scale-100.png">
       <PackagePath>redditicon.scale-100.png</PackagePath>
-      <Modified>2025-03-26T11:09:02.116</Modified>
+      <Modified>2025-03-26T16:37:42.115</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MemeOracleUI.deps.json">
       <PackagePath>MemeOracleUI.deps.json</PackagePath>
-      <Modified>2025-03-26T12:29:17.752</Modified>
+      <Modified>2025-03-27T20:01:58.905</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -629,6 +629,22 @@
       <PackagePath>Sprache.dll</PackagePath>
       <Modified>2020-09-04T22:06:30.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Landon\.nuget\packages\sqlite-net-pcl\1.9.172\lib\netstandard2.0\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>2024-03-27T22:22:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Landon\.nuget\packages\sqlitepclraw.bundle_green\2.1.2\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2022-09-18T19:28:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Landon\.nuget\packages\sqlitepclraw.core\2.1.2\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2022-09-18T19:26:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Landon\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.1.2\lib\net6.0-windows7.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2022-09-18T19:27:06.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\.nuget\packages\system.codedom\8.0.0\lib\net8.0\System.CodeDom.dll">
       <PackagePath>System.CodeDom.dll</PackagePath>
       <Modified>2023-10-31T14:59:14.000</Modified>
@@ -789,13 +805,17 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2024-06-25T19:48:44.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Landon\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.2\runtimes\win-x64\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2022-09-18T19:20:44.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\bin\Debug\net8.0\MemeFinder.dll">
       <PackagePath>MemeFinder.dll</PackagePath>
-      <Modified>2025-03-26T12:29:07.500</Modified>
+      <Modified>2025-03-27T20:51:32.557</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracle_SharedLibrary\bin\Debug\net8.0\MemeOracle_SharedLibrary.dll">
       <PackagePath>MemeOracle_SharedLibrary.dll</PackagePath>
-      <Modified>2025-03-26T11:08:49.035</Modified>
+      <Modified>2025-03-27T20:51:32.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\.nuget\packages\microsoft.maui.controls.compatibility\8.0.100\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

@@ -10,22 +10,39 @@ using System.Text;
 using System.Threading.Tasks;
 using static MemeFinder.Program;
 
+
 namespace MemeFinder.Services
 {
     public class AuthService
     {
+        
         //Method the refresh the access token using the refresh token
         public static async Task<string> RefreshAccessToken()
         {
             try
             {
-                //load environmental variables
                 ConfigManager.LoadEnvVariables();
+                //Hardcode credentials - FOR TESTING ONLY - DELETE WHEN DONE
+                string clientId = " ";
+                string clientSecret = " ";
+                string refreshToken = " ";
 
-                //load credentials from ConfigManager
-                var clientId = ConfigManager.clientId;
-                var clientSecret = ConfigManager.clientSecret;
-                var refreshToken = ConfigManager.refreshToken;
+                //load credentials from ConfigManager - DO NOT KEEP HARDCODED
+                //string clientId = ConfigManager.clientId; 
+                //string clientSecret = ConfigManager.clientSecret;
+                //string refreshToken = ConfigManager.refreshToken;
+
+                Debug.WriteLine($"clientId: {clientId}");
+                Debug.WriteLine($"clientSecret: {clientSecret}");
+                Debug.WriteLine($"refreshToken: {refreshToken}");
+
+                if (string.IsNullOrEmpty( clientId ) ||
+                    string.IsNullOrEmpty( clientSecret ) ||
+                    string.IsNullOrEmpty( refreshToken )) 
+                    {
+                    Debug.WriteLine("One or more required environment variables are missing.");
+                    return string.Empty;
+                    }
 
                 var options = new RestClientOptions("https://www.reddit.com/api/v1/access_token")
                 {

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Diagnostics;
 using MemeFinder.Wrapper;
+using System.Windows.Input;
 
 //View Model for holding data
 namespace MemeOracleUI.ViewModels
@@ -32,6 +33,16 @@ namespace MemeOracleUI.ViewModels
             }
         }
 
+        public ICommand ToggleLikeCommand => new Command<SharedMeme>(ToggleLike);
+
+        private void ToggleLike(SharedMeme meme)
+        {
+            meme.IsLiked = !meme.IsLiked;
+
+            //TODO: Save or remove from local database here...
+            Debug.WriteLine($"{(meme.IsLiked ? "❤️ Liked" : "🤍 Unliked")}: {meme.Title}");
+        }
+
 
         public void SetAccessToken(string validAccessToken)
         {
@@ -42,6 +53,17 @@ namespace MemeOracleUI.ViewModels
             _memeService.SetAccessToken(validAccessToken);
             //for testing access Token
             //Debug.WriteLine("Access token updated: " + validAccessToken);
+        }
+
+        private bool _isInSelectionMode = true;
+        public bool IsInSelectionMode
+        {
+            get => _isInSelectionMode;
+            set
+            {
+                _isInSelectionMode = value;
+                OnPropertyChanged();
+            }
         }
 
 
@@ -56,12 +78,13 @@ namespace MemeOracleUI.ViewModels
         }
 
         //Asyncronously fetches meme data
-        public async Task LoadMemesAsync()
+        public async Task LoadMemesAsync(string timeFilter = "week")
         {
             IsLoading = true;
+            IsInSelectionMode = false;
             try
             {
-                var memes = await _memeService.GetMemesAsync();
+                var memes = await _memeService.GetMemesAsync(timeFilter);
                 Memes.Clear();
                 foreach (var meme in memes)
                 {

@@ -1,20 +1,24 @@
-using MemeOracleUI.ViewModels;
 using MemeFinder;
-using MemeFinder.Services;
 using MemeFinder.Configuration;
+using MemeFinder.Services;
 using MemeFinder.Wrapper;
+using MemeOracle_SharedLibrary;
+using MemeOracleUI.Database;
 using MemeOracleUI.Utility;
+using MemeOracleUI.ViewModels;
+using System.Diagnostics;
 
 namespace MemeOracleUI;
 
 public partial class NewPage1 : ContentPage
 {
     private MainViewModel _viewModel;
-    public NewPage1(MainViewModel vm)
+    public NewPage1(MainViewModel vm, MemeDataBase db)
     {
         InitializeComponent();
         _viewModel = vm;
         BindingContext = _viewModel;
+        _db = db;
     }
 
     protected override async void OnAppearing()
@@ -29,27 +33,63 @@ public partial class NewPage1 : ContentPage
         if (BindingContext is MainViewModel vm)
         {
             vm.SetAccessToken(token);
+            await vm.LoadMemesAsync();
         }
     }
 
-    private async void Button_Clicked(object sender, EventArgs e)
+    private void ResetButton_Clicked(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync("NewPage");
+        _viewModel.Memes.Clear(); //remove any existing memes
+        _viewModel.IsInSelectionMode = false; 
+        Debug.WriteLine("Memes cleared.");
     }
 
-    private async void BackButton_Clicked(object sender, EventArgs e)
+    private async void HomeButton_Clicked(object sender, EventArgs e)
     {
         await Shell.Current.GoToAsync("//MainPage");
     }
 
+    private readonly MemeDataBase _db;
+    private async void OnHeartClicked(object sender, EventArgs e)
+    {
+        if (sender is Button button && button.BindingContext is SharedMeme meme)
+        {
+            meme.IsLiked = !meme.IsLiked;
+
+            //trigger animation
+            await button.ScaleTo(1.3, 100, Easing.CubicOut);
+            await button.ScaleTo(1.0, 100, Easing.CubicIn);
+
+            if (meme.IsLiked)
+                await _db.SaveMemeAsync(meme);
+            else
+                await _db.DeleteMemeAsync(meme);
+
+            //Debug log
+            Debug.WriteLine($"{(meme.IsLiked ? "?? Liked" : "?? unliked")}: {meme.Title}");
+
+        }
+        else
+        {
+            Debug.WriteLine("Meme not found in binding context.");
+        }
+    }
+
     private async void LoadWeeklyMemes_Clicked(object sender, EventArgs e)
     {
-        if (BindingContext is MainViewModel vm)
-        {
-            await vm.LoadMemesAsync();
-        }
-
+        Debug.WriteLine("[UI] 'Past 7 days' button clicked.");
+        Debug.WriteLine("Loading memes from button...");
+        await _viewModel.LoadMemesAsync("week");
+        Debug.WriteLine($"[UI] Memes loaded: {_viewModel.Memes.Count}");
         //For testing button functionality
         //await DisplayAlert("Button Clicked", "The button event is firing.", "ok");
+    }
+    private async void LoadMonthlyMemes_Clicked(Object sender, EventArgs e)
+    {
+        await _viewModel.LoadMemesAsync("month");
+    }
+    private async void LoadYearlyMemes_Clicked(Object sender, EventArgs e)
+    {
+        await _viewModel.LoadMemesAsync("year");
     }
 }
