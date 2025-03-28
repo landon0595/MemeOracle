@@ -8,6 +8,7 @@ using System.Runtime.CompilerServices;
 using System.Diagnostics;
 using MemeFinder.Wrapper;
 using System.Windows.Input;
+using MemeOracleUI.Database;
 
 //View Model for holding data
 namespace MemeOracleUI.ViewModels
@@ -16,10 +17,13 @@ namespace MemeOracleUI.ViewModels
     public class MainViewModel : INotifyPropertyChanged
     {
         private readonly IMemeService _memeService;
+        
+        private readonly MemeDataBase _db;
 
-        public MainViewModel(IMemeService memeService)
+        public MainViewModel(IMemeService memeService, MemeDataBase db)
         {
             _memeService = memeService;
+            _db = db;
         }
 
         private string _accessToken = string.Empty;
@@ -32,12 +36,17 @@ namespace MemeOracleUI.ViewModels
                 OnPropertyChanged();
             }
         }
+       
+        public ICommand ToggleLikeCommand => new Command<SharedMeme>(async (meme) => await ToggleLike(meme));
 
-        public ICommand ToggleLikeCommand => new Command<SharedMeme>(ToggleLike);
-
-        private void ToggleLike(SharedMeme meme)
+        private async Task ToggleLike(SharedMeme meme)
         {
             meme.IsLiked = !meme.IsLiked;
+
+            if (meme.IsLiked)
+                await _db.SaveMemeAsync(meme);
+            else
+                await _db.DeleteMemeAsync(meme);
 
             //TODO: Save or remove from local database here...
             Debug.WriteLine($"{(meme.IsLiked ? "❤️ Liked" : "🤍 Unliked")}: {meme.Title}");

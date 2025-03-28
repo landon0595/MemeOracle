@@ -27,20 +27,24 @@ namespace MemeOracleUI.Database
         {
             return _db.Table<SharedMeme>().ToListAsync();
         }
+
+        public event Action? OnSavedMemesUpdated;
+
+
         public async Task<int> SaveMemeAsync(SharedMeme meme)
         {
             await InitAsync();
-            var result = await _db.InsertAsync(meme);
-            Console.WriteLine("MemeSaved");
-            return await _db.InsertAsync(meme);
- 
+            var result = await _db.InsertOrReplaceAsync(meme);
+            OnSavedMemesUpdated?.Invoke();
+            return result; 
         }
 
         public async Task<int> DeleteMemeAsync(SharedMeme meme)
         {
             await InitAsync();
-            Console.WriteLine("MemeDeleted");
-            return await _db.DeleteAsync(meme);
+            var result = await _db.DeleteAsync(meme);
+            OnSavedMemesUpdated?.Invoke();
+            return result;
         }
 
         public Task<int> UpdateMemeAsync(SharedMeme meme)

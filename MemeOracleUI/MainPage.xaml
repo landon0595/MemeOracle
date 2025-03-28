@@ -53,6 +53,7 @@
                 TextColor="CornflowerBlue"
                 FontSize="Large"
                 FontFamily="ArcadeClassic"
+                Clicked="SavedMemesButton_Clicked"
                 VerticalOptions="Center"/>
 
                 <Button 

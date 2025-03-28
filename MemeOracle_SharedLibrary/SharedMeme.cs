@@ -13,6 +13,9 @@ namespace MemeOracle_SharedLibrary
         public string Url { get; set; } = string.Empty;
         public string ImageUrl {  get; set; } = string.Empty;
         public long Created {  get; set; } = long.MinValue;
+
+        //Star button reference
+        public bool IsFavorited { get; set; } = false;
         //Heart button reference
         private bool _isLiked;
         public bool IsLiked
