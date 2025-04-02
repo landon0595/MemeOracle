@@ -1,11 +1,15 @@
-﻿using MemeOracle_SharedLibrary;
-using MemeFinder;
-using MemeOracleUI.ViewModels;
-using Microsoft.Extensions.Logging;
+﻿using MemeFinder;
 using MemeFinder.Wrapper;
+using MemeOracle_SharedLibrary;
 using MemeOracleUI.Database;
 using MemeOracleUI.Utility;
+using MemeOracleUI.ViewModels;
+using Microsoft.Extensions.Logging;
 
+
+#if WINDOWS
+using MemeOracleUI.Platforms.Windows;
+#endif
 
 namespace MemeOracleUI
 {
@@ -23,11 +27,18 @@ namespace MemeOracleUI
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
+#if WINDOWS
+            // Replace the default WebViewHandler
+            builder.ConfigureMauiHandlers(handlers =>
+            {
+                handlers.AddHandler<Microsoft.Maui.Controls.WebView, CustomWebViewHandler>();
+            });
+#endif
 #if DEBUG
             builder.Logging.AddDebug();
 #endif
-            builder.Services.AddSingleton<IMemeService, MemeServiceWrapper>();         
-            
+            builder.Services.AddSingleton<IMemeService, MemeServiceWrapper>();
+
             //Pages
             builder.Services.AddTransient<MainPage>();
             builder.Services.AddTransient<NewPage1>();

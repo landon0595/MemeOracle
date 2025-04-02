@@ -1809,7 +1809,6 @@ C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\an
 C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiBoxView.java
 C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiDatePicker.java
 C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiHorizontalScrollView.java
-C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiLayerDrawable.java
 C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiMaterialButton.java
 C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiMaterialButton_MauiResizableDrawable.java
 C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiPageControl.java
