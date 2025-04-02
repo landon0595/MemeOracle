@@ -17,7 +17,7 @@ namespace MemeOracle_SharedLibrary
         //Star button reference
         public bool IsFavorited { get; set; } = false;
         //Heart button reference
-        private bool _isLiked;
+        private bool _isLiked { get; set; } = false;
         public bool IsLiked
         {
             get => _isLiked;

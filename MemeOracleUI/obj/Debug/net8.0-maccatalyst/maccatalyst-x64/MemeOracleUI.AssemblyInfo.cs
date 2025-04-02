@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MemeOracleUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+886df7e0880c004c43758138d3d8945b59c11e66")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+31912262d765baf4fbc56b5efcb406ee4b29f766")]
 [assembly: System.Reflection.AssemblyProductAttribute("MemeOracleUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MemeOracleUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

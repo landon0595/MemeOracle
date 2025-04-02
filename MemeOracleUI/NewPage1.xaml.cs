@@ -1,4 +1,4 @@
-using MemeFinder;
+﻿using MemeFinder;
 using MemeFinder.Configuration;
 using MemeFinder.Services;
 using MemeFinder.Wrapper;
@@ -54,19 +54,26 @@ public partial class NewPage1 : ContentPage
     {
         if (sender is Button button && button.BindingContext is SharedMeme meme)
         {
+            //toggle the liked state
             meme.IsLiked = !meme.IsLiked;
 
             //trigger animation
             await button.ScaleTo(1.3, 100, Easing.CubicOut);
             await button.ScaleTo(1.0, 100, Easing.CubicIn);
 
+            //save or update post in database
             if (meme.IsLiked)
+            { 
                 await _db.SaveMemeAsync(meme);
+                Debug.WriteLine($"Saved meme. New Id: {meme.Id}");
+            }
             else
-                await _db.DeleteMemeAsync(meme);
-
+            {
+            await _db.DeleteMemeAsync(meme);
+            }
+    
             //Debug log
-            Debug.WriteLine($"{(meme.IsLiked ? "?? Liked" : "?? unliked")}: {meme.Title}");
+            Debug.WriteLine($"{(meme.IsLiked ? "❤️ Liked" : "🤍 unliked")}: {meme.Title}");
 
         }
         else

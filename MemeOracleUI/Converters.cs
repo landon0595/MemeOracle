@@ -37,8 +37,8 @@ namespace MemeOracleUI.Converters
     {
         public object? Convert(object? value, Type targetType, object? parameter, CultureInfo culture)
         {
-            bool isLiked = value is true;
-            return isLiked ? "⭐" : "☆";
+            bool isFavorited = value is true;
+            return isFavorited ? "\u2605" : "\u2606";
         }
 
         public object? ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)

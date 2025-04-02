@@ -2,9 +2,10 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"            
              xmlns:local="clr-namespace:MemeOracleUI.Converters"
-             xmlns:behaviors="clr-namespace:MemeOracleUI.Helpers"
+             xmlns:helpers="clr-namespace:MemeOracleUI.Helpers"
              x:Class="MemeOracleUI.SavedMemesPage"
-             Title="SavedMemesPage">
+             Title="SavedMemes">
+    
     <ContentPage.Resources>
         <ResourceDictionary>
             <local:StarConverter x:Key="StarConverter" />
@@ -15,41 +16,73 @@
                     SelectionMode="None">
         <CollectionView.ItemTemplate>
             <DataTemplate>
-                <Grid ColumnDefinitions="*,Auto,Auto"
-                      Padding="10"
-                      BackgroundColor="White"
-                      Margin="0,5"
-                      VerticalOptions="Center">
-                    <!--Meme Title Link-->
-                    <Label Text="{Binding Title}"
-                           TextDecorations="Underline"
-                           TextColor="Blue"
-                           FontSize="16"
+                <Frame Margin="5" Padding="10" BorderColor="LightGray" CornerRadius="5">
+                    <Grid HorizontalOptions="FillAndExpand">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <!--LeftGroup-->
+                        <!--Meme Title Link-->
+                        <Label 
                            Grid.Column="0"
-                           VerticalOptions="Center">
+                           Text="{Binding Title}"                          
+                           VerticalOptions="Center"
+                           HorizontalOptions="StartAndExpand"/>
+                        <!--RightSideIcons-->
+                        <Grid Grid.Column="1" VerticalOptions="Center">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="56" />
+                                <ColumnDefinition Width="70" />
+                                <ColumnDefinition Width="60" />
+                            </Grid.ColumnDefinitions>
 
-                        <Label.Behaviors>
-                            <behaviors:TapToOpenUrlExtention />
-                        </Label.Behaviors>
-                    </Label>
+                            <!--WebSymbol and URL Link-->
+                            <Label Grid.Column="0"
+                               Text="🌐"
+                               TextColor="Blue"
+                               FontSize="25"
+                               VerticalOptions="Center">
+                                <Label.Behaviors>
+                                    <helpers:TapToOpenUrlExtention/>
+                                </Label.Behaviors>
+                            </Label>
 
-                    <!--StarToggle-->
-                    <Button Grid.Column="1"
+                            <!--StarToggle-->
+                            <Button 
+                            Grid.Column="1"
                             Text="{Binding IsFavorited, Converter={StaticResource StarConverter}}"
                             BackgroundColor="Transparent"
-                            TextColor="Gold"
+                            VerticalOptions="Center"
+                            TextColor="{DynamicResource RedditColor}"
                             FontSize="24"
                             Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.ToggleFavoriteCommand}"
-                            CommandParameter="{Binding}" />
-                    
-                    <!--TrashButton-->
-                    <Button Grid.Column="2"
+                            CommandParameter="{Binding}">
+                                <Button.Triggers>
+                                    <!--when favorited is true, use larger font-->
+                                    <DataTrigger TargetType="Button" Binding="{Binding IsFavorited}" Value="True">
+                                        <Setter Property="FontSize" Value="40" />
+                                    </DataTrigger>
+                                    <!--when favorited is false, use smaller font-->
+                                    <DataTrigger TargetType="Button" Binding="{Binding IsFavorited}" Value="False">
+                                        <Setter Property="FontSize" Value="40" />
+                                    </DataTrigger>
+                                </Button.Triggers>
+                            </Button>
+
+                            <!--TrashButton-->
+                            <Button 
+                            Grid.Column="2"
                             Text="🗑"
                             BackgroundColor="Transparent"
                             FontSize="24"
+                            VerticalOptions="Center"
                             Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DeleteMemeCommand}"
                             CommandParameter="{Binding}" />
-                </Grid>
+                        </Grid>
+                    </Grid>
+                </Frame>
             </DataTemplate>
         </CollectionView.ItemTemplate>
     </CollectionView>

@@ -1101,8 +1101,8 @@ C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\re
 C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\resizetizer\f\Lady Radical.ttf
 C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Semibold.ttf
-C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\resizetizer\r\drawable\musk_doge.PNG
 C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\resizetizer\r\drawable\redditicon.png
+C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\resizetizer\r\drawable\musk_doge.PNG
 C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
 C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\dotnet_bot.png
 C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png

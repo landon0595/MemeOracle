@@ -93,9 +93,27 @@ namespace MemeOracleUI.ViewModels
             IsInSelectionMode = false;
             try
             {
-                var memes = await _memeService.GetMemesAsync(timeFilter);
+                // meme from external source
+                var memesFromService = await _memeService.GetMemesAsync(timeFilter);
+
+                //locally saved memes from database
+                var localMemes = await _db.GetMemesAsync();
+
+                //merge: if local version exists, update like/favorite state
+                foreach (var meme in memesFromService)
+                {
+                    var localMeme = localMemes.FirstOrDefault(m => m.Url == meme.Url);
+                    if (localMeme != null)
+                    {
+                        meme.IsLiked = localMeme.IsLiked;
+                        meme.IsFavorited = localMeme.IsFavorited;
+                        //update ID for future work on local record
+                        meme.Id = localMeme.Id;
+                    }
+                }
+
                 Memes.Clear();
-                foreach (var meme in memes)
+                foreach (var meme in memesFromService)
                 {
                     Memes.Add(meme);
                 }

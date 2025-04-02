@@ -4,6 +4,8 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
 using MemeOracleUI.Database;
+using System.Linq;
+using Microsoft.Maui.Controls; //for command and behavior
 
 namespace MemeOracleUI
 {
@@ -12,14 +14,36 @@ namespace MemeOracleUI
         private readonly MemeDataBase _db;
         public ObservableCollection<SharedMeme> SavedMemes { get; } = new();
 
-        public ICommand ToggleFavoriteCommand => new Command<SharedMeme>(ToggleFavorite);
+        //invoked by the UI buttons
+        public ICommand ToggleFavoriteCommand => new Command<SharedMeme>(async (meme) =>
+        {
+            meme.IsFavorited = !meme.IsFavorited;
+            await _db.UpdateMemeAsync(meme);
+            await LoadSavedMemesAsync(); //Refresh sort order (fav memes at top)
+        });
+
         public ICommand DeleteMemeCommand => new Command<SharedMeme>(DeleteMeme);
+
+         //Populates the daved memes collection on page
 
         public SavedMemesViewModel(MemeDataBase db)
         {
             _db = db;
-            _db.OnSavedMemesUpdated += SortSavedMemes;
-            SortSavedMemes();
+            //when database updates, reload saved memes
+            _db.OnSavedMemesUpdated += async () => await LoadSavedMemesAsync();
+            Task.Run(() => LoadSavedMemesAsync());
+        }
+
+        public async Task LoadSavedMemesAsync()
+        {
+            var memesFromDb = await _db.GetMemesAsync();
+            //sort favored memes to show on top of database
+            var sortedMemes = memesFromDb.OrderByDescending(m => m.IsFavorited).ToList();
+            SavedMemes.Clear();
+            foreach (var meme in sortedMemes)
+            {
+                SavedMemes.Add(meme);
+            }
         }
 
         private void SortSavedMemes()
@@ -30,12 +54,6 @@ namespace MemeOracleUI
                 SavedMemes.Add(meme);
         }
 
-        private async void ToggleFavorite(SharedMeme meme)
-        {
-            meme.IsFavorited = !meme.IsFavorited;
-            await _db.UpdateMemeAsync(meme);
-            SortSavedMemes(); //Refresh sort order
-        }
         private async void DeleteMeme(SharedMeme meme)
         {
             await _db.DeleteMemeAsync(meme);
@@ -47,22 +65,6 @@ namespace MemeOracleUI
         public void OnPropertyChanged([CallerMemberName] string propertName = "")
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertName));
-        }
-
-        public class TapToOpenUrlExtension : Behavior<Label>
-        {
-            protected override void OnAttachedTo(Label bindable)
-            {
-                base.OnAttachedTo(bindable);
-                bindable.GestureRecognizers.Add(new TapGestureRecognizer
-                {
-                    Command = new Command(async () =>
-                    {
-                        if (bindable.BindingContext is SharedMeme meme)
-                            await Launcher.Default.OpenAsync(meme.Url);
-                    })
-                });
-            }
         }
     }
 }

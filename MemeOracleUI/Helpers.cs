@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.Maui.Controls;
+using System;
 using MemeOracle_SharedLibrary;
 
 namespace MemeOracleUI.Helpers
 {
+    //behavior for opening url
     public class TapToOpenUrlExtention : Behavior<Label>
     {
         protected override void OnAttachedTo(Label bindable)

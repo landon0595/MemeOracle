@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MemeOracle_SharedLibrary;
+using System.Diagnostics;
 
 namespace MemeOracleUI.Database
 {
@@ -34,9 +35,19 @@ namespace MemeOracleUI.Database
         public async Task<int> SaveMemeAsync(SharedMeme meme)
         {
             await InitAsync();
-            var result = await _db.InsertOrReplaceAsync(meme);
+            int result;
+            if (meme.Id == 0)
+            {
+                result = await _db.InsertAsync(meme);
+                //Update meme.Id with new primary key
+                Debug.WriteLine($"Inserted meme with new Id: {meme.Id}");
+            }
+            else
+            {
+                result = await _db.UpdateAsync(meme);
+            }
             OnSavedMemesUpdated?.Invoke();
-            return result; 
+            return result;
         }
 
         public async Task<int> DeleteMemeAsync(SharedMeme meme)

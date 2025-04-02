@@ -16,4 +16,11 @@ public partial class SavedMemesPage : ContentPage
         _viewModel = viewModel;
         BindingContext = _viewModel;
     }
+
+    //reload memes on page load
+    protected override async void OnAppearing()
+    {
+        base.OnAppearing();
+        await _viewModel.LoadSavedMemesAsync();
+    }
 }

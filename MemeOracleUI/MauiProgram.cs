@@ -2,7 +2,6 @@
 using MemeFinder.Wrapper;
 using MemeOracle_SharedLibrary;
 using MemeOracleUI.Database;
-using MemeOracleUI.Utility;
 using MemeOracleUI.ViewModels;
 using Microsoft.Extensions.Logging;
 
@@ -34,6 +33,7 @@ namespace MemeOracleUI
                 handlers.AddHandler<Microsoft.Maui.Controls.WebView, CustomWebViewHandler>();
             });
 #endif
+
 #if DEBUG
             builder.Logging.AddDebug();
 #endif

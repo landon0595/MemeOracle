@@ -157,6 +157,7 @@
                                 Margin="5,0,0,0"
                                 HorizontalOptions="End"
                                 VerticalOptions="Center"
+                                CommandParameter="{Binding}"
                                 Clicked="OnHeartClicked" />
                             </StackLayout>
                         </Grid>
