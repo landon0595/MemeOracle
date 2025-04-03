@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-03T22:20:57.473</Modified>
+      <Modified>2025-04-03T22:51:29.429</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MemeOracleUI.dll">
       <PackagePath>MemeOracleUI.dll</PackagePath>
-      <Modified>2025-04-03T22:20:56.057</Modified>
+      <Modified>2025-04-03T22:51:28.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MemeOracleUI.exe</PackagePath>
-      <Modified>2025-04-03T22:20:56.074</Modified>
+      <Modified>2025-04-03T22:51:28.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -811,7 +811,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\bin\Debug\net8.0\MemeFinder.dll">
       <PackagePath>MemeFinder.dll</PackagePath>
-      <Modified>2025-04-03T21:59:00.604</Modified>
+      <Modified>2025-04-03T22:31:28.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracle_SharedLibrary\bin\Debug\net8.0\MemeOracle_SharedLibrary.dll">
       <PackagePath>MemeOracle_SharedLibrary.dll</PackagePath>

@@ -12,11 +12,12 @@
         </ResourceDictionary>
     </ContentPage.Resources>
     <CollectionView ItemsSource="{Binding SavedMemes}"
-                    Margin="10"
-                    SelectionMode="None">
+                    Margin="3"
+                    SelectionMode="None"
+                    BackgroundColor="DarkGray">
         <CollectionView.ItemTemplate>
             <DataTemplate>
-                <Frame Margin="5" Padding="10" BorderColor="LightGray" CornerRadius="5">
+                <Frame Margin="10" Padding="5" BorderColor="LightGray" CornerRadius="5" BackgroundColor="White">
                     <Grid HorizontalOptions="FillAndExpand">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*" />

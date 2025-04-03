@@ -14,7 +14,7 @@
     </ContentPage.Resources>
 
     <Grid 
-            BackgroundColor="White"    
+            BackgroundColor="DarkGray"    
             RowDefinitions="Auto,Auto,*"
             ColumnDefinitions="Auto,*"
             Padding="10">
@@ -47,6 +47,7 @@
 
             <Label
             Text="Generate the Memes!"
+            TextColor="Black"
             FontSize="Header"
             FontFamily="ArcadeClassic"
             Padding="0,10"
@@ -114,7 +115,7 @@
         <CollectionView Grid.Row="2" Grid.ColumnSpan="2" 
                         ItemsSource="{Binding Memes}"
                         VerticalOptions="FillAndExpand"
-                        BackgroundColor="White"
+                        BackgroundColor="DarkGray"
                         Margin="0,10,0,0">
             <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Vertical" Span="2"
