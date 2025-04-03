@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MemeFinder")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+556a17453207b79154e77b4d9e56342aaf7eae2e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47bdde486fd72b02b6bfe56ce2cc1cb0a9e74ffc")]
 [assembly: System.Reflection.AssemblyProductAttribute("MemeFinder")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MemeFinder")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

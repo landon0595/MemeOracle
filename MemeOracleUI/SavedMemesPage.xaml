@@ -28,7 +28,8 @@
                         <!--Meme Title Link-->
                         <Label 
                            Grid.Column="0"
-                           Text="{Binding Title}"                          
+                           Text="{Binding Title}"  
+                           TextColor="Black"
                            VerticalOptions="Center"
                            HorizontalOptions="StartAndExpand"/>
                         <!--RightSideIcons-->
