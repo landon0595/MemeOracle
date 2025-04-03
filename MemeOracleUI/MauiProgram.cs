@@ -53,6 +53,12 @@ namespace MemeOracleUI
             });
             builder.Services.AddSingleton<SavedMemesViewModel>();
 
+            builder
+                .ConfigureFonts(fonts =>
+                {
+                    fonts.AddFont("ArcadeClassic.ttf");
+                });
+
             //SQLite setup
             string dbPath = Path.Combine(FileSystem.AppDataDirectory, "memes.db");
             var database = new MemeDataBase(dbPath);

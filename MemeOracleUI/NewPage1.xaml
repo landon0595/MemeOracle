@@ -14,9 +14,11 @@
     </ContentPage.Resources>
 
     <Grid 
+            BackgroundColor="White"    
             RowDefinitions="Auto,Auto,*"
             ColumnDefinitions="Auto,*"
             Padding="10">
+            
 
 
         <VerticalStackLayout Grid.Row="0" Grid.Column="0" Grid.RowSpan ="2" Spacing="10" VerticalOptions="Start" HorizontalOptions="Start"> 
@@ -121,7 +123,7 @@
                 </CollectionView.ItemsLayout>
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Frame Padding="10" Margin="5" BorderColor="Black" CornerRadius="20">
+                        <Frame Padding="10" Margin="5" BorderColor="Black" CornerRadius="20" BackgroundColor="White">
                         
                             <!--PostBlocks_Alignment-->
                             <Grid RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="*,Auto" VerticalOptions="Start">

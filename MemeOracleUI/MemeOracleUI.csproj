@@ -56,15 +56,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiFont Remove="Resources\Fonts\ArcadeClassic.ttf" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <MauiImage Remove="Resources\Images\chillguy_anim.mp4" />	  
 	</ItemGroup>
 
 	<ItemGroup>
-	  <EmbeddedResource Include="Resources\Fonts\ArcadeClassic.ttf" />
 	  <EmbeddedResource Include="Resources\Images\chillguy_anim.mp4" />
 	</ItemGroup>
 

@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{94D116D1-AE74-42C2-80B4-33A07034BC40}|MemeFinder.csproj|solutionrelative:authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{96B95E74-B0EF-400F-9980-F42060960951}|MemeOracleUI\\MemeOracleUI.csproj|c:\\users\\landon\\source\\repos\\memeoracle\\memeoracleui\\newpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{96B95E74-B0EF-400F-9980-F42060960951}|MemeOracleUI\\MemeOracleUI.csproj|solutionrelative:memeoracleui\\newpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96B95E74-B0EF-400F-9980-F42060960951}|MemeOracleUI\\MemeOracleUI.csproj|c:\\users\\landon\\source\\repos\\memeoracle\\memeoracleui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{96B95E74-B0EF-400F-9980-F42060960951}|MemeOracleUI\\MemeOracleUI.csproj|solutionrelative:memeoracleui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96B95E74-B0EF-400F-9980-F42060960951}|MemeOracleUI\\MemeOracleUI.csproj|c:\\users\\landon\\source\\repos\\memeoracle\\memeoracleui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96B95E74-B0EF-400F-9980-F42060960951}|MemeOracleUI\\MemeOracleUI.csproj|solutionrelative:memeoracleui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{96B95E74-B0EF-400F-9980-F42060960951}|MemeOracleUI\\MemeOracleUI.csproj|c:\\users\\landon\\source\\repos\\memeoracle\\memeoracleui\\memeoracleui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{96B95E74-B0EF-400F-9980-F42060960951}|MemeOracleUI\\MemeOracleUI.csproj|solutionrelative:memeoracleui\\memeoracleui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -21,8 +33,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 628,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 840,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,15 +42,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\MemeOracleUI\\App.xaml",
+              "RelativeDocumentMoniker": "MemeOracleUI\\App.xaml",
+              "ToolTip": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\MemeOracleUI\\App.xaml",
+              "RelativeToolTip": "MemeOracleUI\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T22:14:44.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\MemeOracleUI\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MemeOracleUI\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\MemeOracleUI\\MauiProgram.cs",
+              "RelativeToolTip": "MemeOracleUI\\MauiProgram.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwDoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T22:06:38.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MemeOracleUI",
               "DocumentMoniker": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\MemeOracleUI\\MemeOracleUI.csproj",
               "RelativeDocumentMoniker": "MemeOracleUI\\MemeOracleUI.csproj",
               "ToolTip": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\MemeOracleUI\\MemeOracleUI.csproj",
               "RelativeToolTip": "MemeOracleUI\\MemeOracleUI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-03T21:44:40.985Z",
+              "WhenOpened": "2025-04-03T22:00:38.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewPage1.xaml",
+              "DocumentMoniker": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\MemeOracleUI\\NewPage1.xaml",
+              "RelativeDocumentMoniker": "MemeOracleUI\\NewPage1.xaml",
+              "ToolTip": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\MemeOracleUI\\NewPage1.xaml",
+              "RelativeToolTip": "MemeOracleUI\\NewPage1.xaml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T21:56:05.322Z",
               "EditorCaption": ""
             },
             {
@@ -57,12 +108,12 @@
           ]
         },
         {
-          "DockedWidth": 628,
+          "DockedWidth": 416,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": ".env",
               "DocumentMoniker": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\.env",
               "RelativeDocumentMoniker": ".env",
