@@ -67,8 +67,8 @@
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\KarmaFuture.ttf">
       <PackagePath>KarmaFuture.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Lady Radical.ttf">
-      <PackagePath>Lady Radical.ttf</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\LadyRadical.ttf">
+      <PackagePath>LadyRadical.ttf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>

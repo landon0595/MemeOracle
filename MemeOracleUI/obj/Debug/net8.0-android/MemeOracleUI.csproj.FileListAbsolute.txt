@@ -1098,7 +1098,7 @@ C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\re
 C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\resizetizer\f\ChunkyTown.otf
 C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\resizetizer\f\impact.ttf
 C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\resizetizer\f\KarmaFuture.ttf
-C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\resizetizer\f\Lady Radical.ttf
+C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\resizetizer\f\LadyRadical.ttf
 C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Semibold.ttf
 C:\Users\Landon\source\repos\MemeOracle\MemeOracleUI\obj\Debug\net8.0-android\resizetizer\r\drawable\redditicon.png

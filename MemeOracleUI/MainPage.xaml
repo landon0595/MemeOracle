@@ -15,7 +15,7 @@
 
                 <Label
                 Text="Meme Oracle"
-                FontFamily="Lady_Radical"
+                FontFamily="LadyRadical"
                 TextColor="PapayaWhip" 
                 FontSize="60"
                 Margin="0, 35, 0, 0"

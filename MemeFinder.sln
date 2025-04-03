@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemeFinder", "MemeFinder.cs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemeOracleUI", "MemeOracleUI\MemeOracleUI.csproj", "{96B95E74-B0EF-400F-9980-F42060960951}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemeOracle_SharedLibrary", "MemeOracle_SharedLibrary\MemeOracle_SharedLibrary.csproj", "{E97573AB-68CB-4649-962A-5B0134933663}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemeOracle_SharedLibrary", "MemeOracle_SharedLibrary\MemeOracle_SharedLibrary.csproj", "{E97573AB-68CB-4649-962A-5B0134933663}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

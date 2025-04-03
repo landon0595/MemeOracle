@@ -56,7 +56,8 @@ namespace MemeOracleUI
             builder
                 .ConfigureFonts(fonts =>
                 {
-                    fonts.AddFont("ArcadeClassic.ttf", "Lady_Radical.ttf");
+                    fonts.AddFont("ArcadeClassic.ttf");
+                    fonts.AddFont("LadyRadical.ttf");
                 });
 
             //SQLite setup
