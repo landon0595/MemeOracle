@@ -7,6 +7,30 @@
       "RelativeMoniker": "D:0:0:{94D116D1-AE74-42C2-80B4-33A07034BC40}|MemeFinder.csproj|solutionrelative:authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{96B95E74-B0EF-400F-9980-F42060960951}|MemeOracleUI\\MemeOracleUI.csproj|c:\\users\\landon\\source\\repos\\memeoracle\\memeoracleui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96B95E74-B0EF-400F-9980-F42060960951}|MemeOracleUI\\MemeOracleUI.csproj|solutionrelative:memeoracleui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96B95E74-B0EF-400F-9980-F42060960951}|MemeOracleUI\\MemeOracleUI.csproj|c:\\users\\landon\\source\\repos\\memeoracle\\memeoracleui\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96B95E74-B0EF-400F-9980-F42060960951}|MemeOracleUI\\MemeOracleUI.csproj|solutionrelative:memeoracleui\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96B95E74-B0EF-400F-9980-F42060960951}|MemeOracleUI\\MemeOracleUI.csproj|c:\\users\\landon\\source\\repos\\memeoracle\\memeoracleui\\customwebviewhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96B95E74-B0EF-400F-9980-F42060960951}|MemeOracleUI\\MemeOracleUI.csproj|solutionrelative:memeoracleui\\customwebviewhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96B95E74-B0EF-400F-9980-F42060960951}|MemeOracleUI\\MemeOracleUI.csproj|c:\\users\\landon\\source\\repos\\memeoracle\\memeoracleui\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96B95E74-B0EF-400F-9980-F42060960951}|MemeOracleUI\\MemeOracleUI.csproj|solutionrelative:memeoracleui\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96B95E74-B0EF-400F-9980-F42060960951}|MemeOracleUI\\MemeOracleUI.csproj|c:\\users\\landon\\source\\repos\\memeoracle\\memeoracleui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96B95E74-B0EF-400F-9980-F42060960951}|MemeOracleUI\\MemeOracleUI.csproj|solutionrelative:memeoracleui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96B95E74-B0EF-400F-9980-F42060960951}|MemeOracleUI\\MemeOracleUI.csproj|c:\\users\\landon\\source\\repos\\memeoracle\\memeoracleui\\savedmemesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96B95E74-B0EF-400F-9980-F42060960951}|MemeOracleUI\\MemeOracleUI.csproj|solutionrelative:memeoracleui\\savedmemesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{94D116D1-AE74-42C2-80B4-33A07034BC40}|MemeFinder.csproj|c:\\users\\landon\\source\\repos\\memeoracle\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{94D116D1-AE74-42C2-80B4-33A07034BC40}|MemeFinder.csproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
@@ -18,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 628,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,12 +51,90 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\MemeOracleUI\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MemeOracleUI\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\MemeOracleUI\\MainPage.xaml.cs",
+              "RelativeToolTip": "MemeOracleUI\\MainPage.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCgAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T21:15:05.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Helpers.cs",
+              "DocumentMoniker": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\MemeOracleUI\\Helpers.cs",
+              "RelativeDocumentMoniker": "MemeOracleUI\\Helpers.cs",
+              "ToolTip": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\MemeOracleUI\\Helpers.cs",
+              "RelativeToolTip": "MemeOracleUI\\Helpers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T21:14:53.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomWebViewHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\MemeOracleUI\\CustomWebViewHandler.cs",
+              "RelativeDocumentMoniker": "MemeOracleUI\\CustomWebViewHandler.cs",
+              "ToolTip": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\MemeOracleUI\\CustomWebViewHandler.cs",
+              "RelativeToolTip": "MemeOracleUI\\CustomWebViewHandler.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T21:14:48.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\MemeOracleUI\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "MemeOracleUI\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\MemeOracleUI\\MainViewModel.cs",
+              "RelativeToolTip": "MemeOracleUI\\MainViewModel.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T21:14:39.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\MemeOracleUI\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MemeOracleUI\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\MemeOracleUI\\MauiProgram.cs",
+              "RelativeToolTip": "MemeOracleUI\\MauiProgram.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T21:14:36.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SavedMemesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\MemeOracleUI\\SavedMemesViewModel.cs",
+              "RelativeDocumentMoniker": "MemeOracleUI\\SavedMemesViewModel.cs",
+              "ToolTip": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\MemeOracleUI\\SavedMemesViewModel.cs",
+              "RelativeToolTip": "MemeOracleUI\\SavedMemesViewModel.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAA4wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T21:14:27.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": ".env",
               "DocumentMoniker": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\.env",
               "RelativeDocumentMoniker": ".env",
               "ToolTip": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\.env",
               "RelativeToolTip": ".env",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-04-03T20:30:50.266Z",
               "EditorCaption": ""
@@ -45,7 +147,7 @@
               "RelativeDocumentMoniker": "AuthService.cs",
               "ToolTip": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\AuthService.cs",
               "RelativeToolTip": "AuthService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T19:24:15.381Z",
               "EditorCaption": ""

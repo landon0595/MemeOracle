@@ -60,7 +60,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiAsset Include="Resources\Images\chillguy_anim.mp4" />
+	  <EmbeddedResource Include="Resources\Images\chillguy_anim.mp4" />
 	</ItemGroup>
 
 	<ItemGroup>
