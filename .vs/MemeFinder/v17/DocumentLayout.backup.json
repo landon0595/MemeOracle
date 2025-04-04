@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{94D116D1-AE74-42C2-80B4-33A07034BC40}|MemeFinder.csproj|c:\\users\\landon\\source\\repos\\memeoracle\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94D116D1-AE74-42C2-80B4-33A07034BC40}|MemeFinder.csproj|solutionrelative:authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94D116D1-AE74-42C2-80B4-33A07034BC40}|MemeFinder.csproj|c:\\users\\landon\\source\\repos\\memeoracle\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{94D116D1-AE74-42C2-80B4-33A07034BC40}|MemeFinder.csproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,7 +17,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 1119,
+          "DockedWidth": 795,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -36,7 +32,7 @@
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2025-04-04T00:10:35.198Z",
               "EditorCaption": ""
@@ -49,28 +45,9 @@
               "RelativeDocumentMoniker": "AuthService.cs",
               "ToolTip": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\AuthService.cs",
               "RelativeToolTip": "AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBsAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T19:24:15.381Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 137,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": ".env",
-              "DocumentMoniker": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\.env",
-              "RelativeDocumentMoniker": ".env",
-              "ToolTip": "C:\\Users\\Landon\\source\\repos\\MemeOracle\\.env",
-              "RelativeToolTip": ".env",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-03T20:30:50.266Z",
               "EditorCaption": ""
             }
           ]

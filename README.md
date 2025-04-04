@@ -48,17 +48,25 @@ API’s / Libraries: <br />
 
 ## Troubleshooting
 
-In some cases the correct project is not setup for startup. 
+In some cases the correct project is not setup for startup.
+
 ![StartUpTarget_IMG5.PNG](ReadMe_Images/StartUpTarget_IMG5.PNG)
 
 If you get this error, follow these steps:
+
 Locate the StartUp button (play symbol) and click the drop down beside it.
+
 ![StartUpTarget_IMG1.PNG](ReadMe_Images/StartUpTarget_IMG1.PNG)
+
 Click "Configure Startup Projects..."
+
 ![StartUpTarget_IMG2.PNG](ReadMe_Images/StartUpTarget_IMG2.PNG)
+
 Make sure "Single startup project" is selected, click the dropdown, now make sure MemeOracleUI is selected.
+
 ![StartUpTarget_IMG3.PNG](ReadMe_Images/StartUpTarget_IMG3.PNG)
 ![StartUpTarget_IMG4.PNG](ReadMe_Images/StartUpTarget_IMG4.PNG)
+
 Apply changes in bottom right and then click OK.
 Now when you click the Startup button, the app will run as intended.
 
