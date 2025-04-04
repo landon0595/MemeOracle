@@ -6,6 +6,7 @@ Predicting viral memes for the average person can be such a drag. Fear not! Ditc
 ## SetUp Directions
 Open the file named AuthService.cs in MemeFinder.csproj
 Add ClientId, ClientSecret, and RefreshToken to space available inside "". Do NOT add any extra characters or spaces.
+
 ![CredentialsIMG](ReadMe_Images/CredentialsIMG.PNG)
 
 ### Overview
