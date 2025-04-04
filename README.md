@@ -4,6 +4,7 @@ The meme predicting fortune teller
 Predicting viral memes for the average person can be such a drag. Fear not! Ditch the doomscrolling and reclaim your time. My app delivers knowledge effortlessly, without the eye strain and endless distractions. Download Meme Oracle today and you can see clearly again! All it takes is the click of a button and you can feel culturally cooked!
 
 ## SetUp Directions
+Open the file named AuthService.cs in MemeFinder.csproj
 Add ClientId, ClientSecret, and RefreshToken to space available inside "". Do NOT add any extra characters or spaces.
 ![CredentialsIMG](ReadMe_Images/CredentialsIMG.PNG)
 
@@ -43,9 +44,22 @@ API’s / Libraries: <br />
 
 * Expand to Twitter and/or Instagram to include a wider dataset.
 * Allow users to create their own meme and have the app predict its potential popularity.
-* Random meme trend generator.
+* Random meme trend generator.\
 
+## Troubleshooting
 
+In some cases the correct project is not setup for startup. 
+![StartUpTarget_IMG5.PNG](ReadMe_Images/StartUpTarget_IMG5.PNG)
 
+If you get this error, follow these steps:
+Locate the StartUp button (play symbol) and click the drop down beside it.
+![StartUpTarget_IMG1.PNG](ReadMe_Images/StartUpTarget_IMG1.PNG)
+Click "Configure Startup Projects..."
+![StartUpTarget_IMG2.PNG](ReadMe_Images/StartUpTarget_IMG2.PNG)
+Make sure "Single startup project" is selected, click the dropdown, now make sure MemeOracleUI is selected.
+![StartUpTarget_IMG3.PNG](ReadMe_Images/StartUpTarget_IMG3.PNG)
+![StartUpTarget_IMG4.PNG](ReadMe_Images/StartUpTarget_IMG4.PNG)
+Apply changes in bottom right and then click OK.
+Now when you click the Startup button, the app will run as intended.
 
 
