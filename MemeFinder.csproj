@@ -42,4 +42,8 @@
     <ProjectReference Include="MemeOracle_SharedLibrary\MemeOracle_SharedLibrary.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ReadMe_Images\" />
+  </ItemGroup>
+
 </Project>
